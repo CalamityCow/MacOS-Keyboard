@@ -9673,7 +9673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c51c4af-fb15-4636-8734-56bc82e44c18")
-		(property "Reference" "DisplayLEDCAP1"
+		(property "Reference" "DisplayLEDCAP2"
 			(at 34.29 210.8262 0)
 			(effects
 				(font
@@ -9727,7 +9727,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
-					(reference "DisplayLEDCAP1")
+					(reference "DisplayLEDCAP2")
 					(unit 1)
 				)
 			)
@@ -12587,7 +12587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c11bec7-fb6f-4343-82b3-a208c3b6f707")
-		(property "Reference" "DisplayLEDCAP2"
+		(property "Reference" "DisplayLEDCAP3"
 			(at 45.72 210.8262 0)
 			(effects
 				(font
@@ -12641,7 +12641,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
-					(reference "DisplayLEDCAP2")
+					(reference "DisplayLEDCAP3")
 					(unit 1)
 				)
 			)
@@ -17340,7 +17340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e969c5-9faf-44db-8302-d869410f085a")
-		(property "Reference" "DisplayLEDCAP102"
+		(property "Reference" "DisplayLEDCAP1"
 			(at 22.86 210.8262 0)
 			(effects
 				(font
@@ -17394,7 +17394,7 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
-					(reference "DisplayLEDCAP102")
+					(reference "DisplayLEDCAP1")
 					(unit 1)
 				)
 			)
