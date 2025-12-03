@@ -270,7 +270,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LED:SK6812MINI"
+		(symbol "ScottoKeebs:LED_SK6812MINI"
 			(pin_names
 				(offset 0.254)
 			)
@@ -278,7 +278,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 5.08 5.715 0)
+				(at 2.032 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -286,7 +286,7 @@
 					(justify right bottom)
 				)
 			)
-			(property "Value" "SK6812MINI"
+			(property "Value" "LED_SK6812MINI"
 				(at 1.27 -5.715 0)
 				(effects
 					(font
@@ -295,7 +295,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+			(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 				(at 1.27 -7.62 0)
 				(effects
 					(font
@@ -306,7 +306,7 @@
 				)
 			)
 			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-				(at 2.54 -9.525 0)
+				(at 1.27 -11.176 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -316,12 +316,20 @@
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
-				(at 0 0 0)
+				(at 18.288 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "LCSC" "C5149201"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
@@ -342,7 +350,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SK6812MINI_0_0"
+			(symbol "LED_SK6812MINI_0_0"
 				(text "RGB"
 					(at 2.286 -4.191 0)
 					(effects
@@ -352,7 +360,18 @@
 					)
 				)
 			)
-			(symbol "SK6812MINI_0_1"
+			(symbol "LED_SK6812MINI_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 1.778 -2.54)
@@ -437,19 +456,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 5.08 5.08)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
-			(symbol "SK6812MINI_1_1"
+			(symbol "LED_SK6812MINI_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -460,7 +468,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -478,7 +486,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -496,7 +504,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -514,7 +522,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -731,6 +739,12 @@
 		(uuid "154f0865-75ba-4d2e-8c76-2952e30548f1")
 	)
 	(junction
+		(at 48.26 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15e6b5a4-141a-4828-97b8-840ffa944eb7")
+	)
+	(junction
 		(at 454.66 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -929,6 +943,12 @@
 		(uuid "2e825a57-b97a-4926-942b-9a2157bb6aad")
 	)
 	(junction
+		(at 48.26 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e9735a6-ad6f-4444-825b-5d6e779e270a")
+	)
+	(junction
 		(at 54.61 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1121,6 +1141,12 @@
 		(uuid "435f53cf-d133-4e47-b759-de62f847aa7c")
 	)
 	(junction
+		(at 30.48 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44b7ba39-0d00-47cf-bf3b-e19642493286")
+	)
+	(junction
 		(at 397.51 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1217,6 +1243,12 @@
 		(uuid "4e5792dc-a029-4acd-9d6e-0c35672f7e49")
 	)
 	(junction
+		(at 55.88 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e7031a1-29b2-4bfa-bb5c-f2e614e498b8")
+	)
+	(junction
 		(at 368.3 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1227,6 +1259,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5007d899-6fee-413c-bce6-51e55bd1bb80")
+	)
+	(junction
+		(at 30.48 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50a6c1d8-843c-4425-853c-d600977adf9c")
 	)
 	(junction
 		(at 43.18 193.04)
@@ -1883,6 +1921,12 @@
 		(uuid "9b54da07-87a1-4e1a-bb5c-89befa18f406")
 	)
 	(junction
+		(at 39.37 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b744367-051f-41c1-8287-99a414d67533")
+	)
+	(junction
 		(at 416.56 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2339,6 +2383,12 @@
 		(uuid "cdf724a0-b345-4fac-9b30-e0c7b33b2811")
 	)
 	(junction
+		(at 55.88 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceae6278-8018-4ac2-afd3-5fc902baa52f")
+	)
+	(junction
 		(at 52.07 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2379,6 +2429,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d119fe7b-f191-4743-a760-f8385b84fc23")
+	)
+	(junction
+		(at 39.37 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2366ba9-6579-42bd-8fa7-1e72cfb92f01")
 	)
 	(junction
 		(at 54.61 193.04)
@@ -2859,8 +2915,8 @@
 		(uuid "0b1c4508-5ab2-4fcb-ab7e-4b141f9d0ada")
 	)
 	(no_connect
-		(at 508 146.05)
-		(uuid "668ed0e7-1729-48d0-81a3-f2481c8533be")
+		(at 513.08 146.05)
+		(uuid "63d5bcfe-1540-4b89-9a7b-02e41968c736")
 	)
 	(no_connect
 		(at 524.51 83.82)
@@ -2985,6 +3041,16 @@
 			(type default)
 		)
 		(uuid "02db59bf-fa8a-4e3f-bed4-2615bebd2cca")
+	)
+	(wire
+		(pts
+			(xy 55.88 167.64) (xy 64.77 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f52d98-9184-4709-a44d-28a28c69cd8b")
 	)
 	(wire
 		(pts
@@ -3355,6 +3421,16 @@
 			(type default)
 		)
 		(uuid "145880fa-b69c-4408-982b-79d79bfbaf1c")
+	)
+	(wire
+		(pts
+			(xy 39.37 172.72) (xy 48.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163ea448-0724-4271-9ec0-33b7fee18f60")
 	)
 	(wire
 		(pts
@@ -4438,6 +4514,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 167.64) (xy 30.48 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e34e7aa-a7bb-4f34-890d-8203301a13a4")
+	)
+	(wire
+		(pts
 			(xy 106.68 91.44) (xy 114.3 91.44)
 		)
 		(stroke
@@ -4605,6 +4691,16 @@
 			(type default)
 		)
 		(uuid "5761d0d8-bb15-4c57-88df-220e2b0ae0f0")
+	)
+	(wire
+		(pts
+			(xy 21.59 172.72) (xy 30.48 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c43e3f-6e17-45a9-88f7-4b6de576debf")
 	)
 	(wire
 		(pts
@@ -4858,6 +4954,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 172.72) (xy 64.77 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fc3b437-c0a5-46dc-af02-76740463ca3a")
+	)
+	(wire
+		(pts
 			(xy 500.38 187.96) (xy 511.81 187.96)
 		)
 		(stroke
@@ -4905,6 +5011,16 @@
 			(type default)
 		)
 		(uuid "62c41af5-6930-4c65-92e4-b6420d6c2907")
+	)
+	(wire
+		(pts
+			(xy 48.26 172.72) (xy 55.88 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630ed1ff-b117-4dba-a075-97faa5aec488")
 	)
 	(wire
 		(pts
@@ -4985,6 +5101,16 @@
 			(type default)
 		)
 		(uuid "657f8c0a-c91c-4357-9ef1-70b445c9ba9a")
+	)
+	(wire
+		(pts
+			(xy 48.26 167.64) (xy 55.88 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f3b947-dd03-4db5-af6e-92040a4f9027")
 	)
 	(wire
 		(pts
@@ -6168,6 +6294,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 167.64) (xy 48.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1be0aad-1f1b-45bc-bc75-dba9a380b7f1")
+	)
+	(wire
+		(pts
 			(xy 408.94 187.96) (xy 420.37 187.96)
 		)
 		(stroke
@@ -6888,6 +7024,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 167.64) (xy 39.37 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd6acc1-0933-4693-a3b3-ea04ac623272")
+	)
+	(wire
+		(pts
 			(xy 416.56 74.93) (xy 453.39 74.93)
 		)
 		(stroke
@@ -6945,6 +7091,16 @@
 			(type default)
 		)
 		(uuid "d1fd7a08-b724-44f5-9cbb-d07bc1d963e0")
+	)
+	(wire
+		(pts
+			(xy 30.48 172.72) (xy 39.37 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24b21c5-46e4-4b04-9efe-1113fddb028a")
 	)
 	(wire
 		(pts
@@ -8410,7 +8566,7 @@
 		(uuid "ff0eb62a-4f4e-4d5d-b899-95864f0e6224")
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 100.33 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8420,7 +8576,7 @@
 		(fields_autoplaced yes)
 		(uuid "007baa59-5d64-4767-a375-093228fbd538")
 		(property "Reference" "LED17"
-			(at 113.03 35.4898 0)
+			(at 113.03 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,14 +8584,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 113.03 38.0298 0)
+			(at 113.03 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 101.6 49.53 0)
 			(effects
 				(font
@@ -8446,7 +8602,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 102.87 51.435 0)
+			(at 101.6 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,12 +8612,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 41.91 0)
+			(at 118.618 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 113.03 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8486,7 +8650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 524.51 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8510,7 +8674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 525.78 74.93 0)
 			(effects
 				(font
@@ -8521,7 +8685,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 527.05 76.835 0)
+			(at 525.78 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,12 +8695,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 524.51 67.31 0)
+			(at 542.798 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 524.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8701,7 +8873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 524.51 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8725,7 +8897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 525.78 125.73 0)
 			(effects
 				(font
@@ -8736,7 +8908,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 527.05 127.635 0)
+			(at 525.78 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,12 +8918,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 524.51 118.11 0)
+			(at 542.798 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 524.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8776,7 +8956,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 146.05 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8786,7 +8966,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a0ed793-2a52-4a1e-815b-054e5a97f125")
 		(property "Reference" "LED6"
-			(at 158.75 16.4398 0)
+			(at 158.75 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,14 +8974,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 158.75 18.9798 0)
+			(at 158.75 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 147.32 30.48 0)
 			(effects
 				(font
@@ -8812,7 +8992,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 148.59 32.385 0)
+			(at 147.32 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8822,12 +9002,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 146.05 22.86 0)
+			(at 164.338 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 158.75 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8852,7 +9040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 123.19 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8862,7 +9050,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a164555-214f-4f87-9f50-dfd74bab36b6")
 		(property "Reference" "LED75"
-			(at 135.89 111.6898 0)
+			(at 135.89 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8870,14 +9058,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 135.89 114.2298 0)
+			(at 135.89 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 124.46 125.73 0)
 			(effects
 				(font
@@ -8888,7 +9076,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 125.73 127.635 0)
+			(at 124.46 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,12 +9086,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 123.19 118.11 0)
+			(at 141.478 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 135.89 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8998,7 +9194,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 193.04 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9008,7 +9204,7 @@
 		(fields_autoplaced yes)
 		(uuid "103499c0-153a-4792-a5fc-734a63046441")
 		(property "Reference" "LED78"
-			(at 205.74 111.6898 0)
+			(at 205.74 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9016,14 +9212,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 205.74 114.2298 0)
+			(at 205.74 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 194.31 125.73 0)
 			(effects
 				(font
@@ -9034,7 +9230,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 195.58 127.635 0)
+			(at 194.31 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,12 +9240,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 193.04 118.11 0)
+			(at 211.328 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 205.74 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9214,7 +9418,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 52.07 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9224,7 +9428,7 @@
 		(fields_autoplaced yes)
 		(uuid "135f1dd6-d717-4562-9051-ab7670310684")
 		(property "Reference" "LED36"
-			(at 64.77 60.8898 0)
+			(at 64.77 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9232,14 +9436,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 64.77 63.4298 0)
+			(at 64.77 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 53.34 74.93 0)
 			(effects
 				(font
@@ -9250,7 +9454,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 54.61 76.835 0)
+			(at 53.34 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9260,12 +9464,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 52.07 67.31 0)
+			(at 70.358 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 64.77 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9290,7 +9502,77 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "Device:C_Small")
+		(at 48.26 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "139ee938-89d4-4188-8bb9-c826ac7e253b")
+		(property "Reference" "LEDBULKCAP4"
+			(at 50.8 168.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 50.8 171.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4fa1c14-52c3-45ff-a580-07e0aa32f58d")
+		)
+		(pin "1"
+			(uuid "fc367845-eeba-4ccc-97d3-219a747ad1c0")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
+					(reference "LEDBULKCAP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 168.91 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9300,7 +9582,7 @@
 		(fields_autoplaced yes)
 		(uuid "141af034-4dfd-4700-9f5a-98c2510166ac")
 		(property "Reference" "LED62"
-			(at 181.61 85.0198 0)
+			(at 181.61 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,14 +9590,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 181.61 87.5598 0)
+			(at 181.61 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 170.18 99.06 0)
 			(effects
 				(font
@@ -9326,7 +9608,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 171.45 100.965 0)
+			(at 170.18 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,12 +9618,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 168.91 91.44 0)
+			(at 187.198 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 181.61 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9366,7 +9656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 99.06 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9376,7 +9666,7 @@
 		(fields_autoplaced yes)
 		(uuid "163c6549-575a-497c-ae5c-441fb38a3d4f")
 		(property "Reference" "LED59"
-			(at 111.76 85.0198 0)
+			(at 111.76 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,14 +9674,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 111.76 87.5598 0)
+			(at 111.76 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -9402,7 +9692,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 101.6 100.965 0)
+			(at 100.33 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9412,12 +9702,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 99.06 91.44 0)
+			(at 117.348 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 111.76 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9442,7 +9740,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 308.61 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9452,7 +9750,7 @@
 		(fields_autoplaced yes)
 		(uuid "173d2cef-d042-484b-bb47-7eb3a1eae310")
 		(property "Reference" "LED47"
-			(at 321.31 60.8898 0)
+			(at 321.31 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9460,14 +9758,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 321.31 63.4298 0)
+			(at 321.31 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 309.88 74.93 0)
 			(effects
 				(font
@@ -9478,7 +9776,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 311.15 76.835 0)
+			(at 309.88 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,12 +9786,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 308.61 67.31 0)
+			(at 326.898 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 321.31 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9588,7 +9894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 168.91 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9598,7 +9904,7 @@
 		(fields_autoplaced yes)
 		(uuid "1959f143-7a02-4175-b399-cca5833acb43")
 		(property "Reference" "LED92"
-			(at 181.61 139.6298 0)
+			(at 181.61 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9606,14 +9912,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 181.61 142.1698 0)
+			(at 181.61 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 170.18 153.67 0)
 			(effects
 				(font
@@ -9624,7 +9930,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 171.45 155.575 0)
+			(at 170.18 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,12 +9940,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 168.91 146.05 0)
+			(at 187.198 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 181.61 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9673,7 +9987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c51c4af-fb15-4636-8734-56bc82e44c18")
-		(property "Reference" "DisplayLEDCAP1"
+		(property "Reference" "DisplayLEDCAP2"
 			(at 34.29 210.8262 0)
 			(effects
 				(font
@@ -9727,14 +10041,14 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
-					(reference "DisplayLEDCAP1")
+					(reference "DisplayLEDCAP2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 193.04 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9744,7 +10058,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c83a896-56ed-4107-acb2-6bd65d1337d4")
 		(property "Reference" "LED21"
-			(at 205.74 35.4898 0)
+			(at 205.74 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9752,14 +10066,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 205.74 38.0298 0)
+			(at 205.74 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 194.31 49.53 0)
 			(effects
 				(font
@@ -9770,7 +10084,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 195.58 51.435 0)
+			(at 194.31 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,12 +10094,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 193.04 41.91 0)
+			(at 211.328 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 205.74 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9810,7 +10132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 238.76 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9820,7 +10142,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c88d188-2901-43d6-9b21-fed3f0d164bb")
 		(property "Reference" "LED23"
-			(at 251.46 35.4898 0)
+			(at 251.46 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,14 +10150,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 251.46 38.0298 0)
+			(at 251.46 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 240.03 49.53 0)
 			(effects
 				(font
@@ -9846,7 +10168,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 241.3 51.435 0)
+			(at 240.03 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9856,12 +10178,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 238.76 41.91 0)
+			(at 257.048 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 251.46 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9956,7 +10286,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 368.3 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9966,7 +10296,7 @@
 		(fields_autoplaced yes)
 		(uuid "200b5751-1038-4ee9-aca7-07e43c5b7a1b")
 		(property "Reference" "LED28"
-			(at 381 35.4898 0)
+			(at 381 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9974,14 +10304,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 381 38.0298 0)
+			(at 381 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 369.57 49.53 0)
 			(effects
 				(font
@@ -9992,7 +10322,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 370.84 51.435 0)
+			(at 369.57 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10002,12 +10332,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 368.3 41.91 0)
+			(at 386.588 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 381 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10032,7 +10370,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 416.56 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10042,7 +10380,7 @@
 		(fields_autoplaced yes)
 		(uuid "20ce3803-6d5d-41be-93ab-f085b01c26c5")
 		(property "Reference" "LED51"
-			(at 429.26 60.8898 0)
+			(at 429.26 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,14 +10388,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 429.26 63.4298 0)
+			(at 429.26 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 417.83 74.93 0)
 			(effects
 				(font
@@ -10068,7 +10406,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 419.1 76.835 0)
+			(at 417.83 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,12 +10416,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 416.56 67.31 0)
+			(at 434.848 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 429.26 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10108,7 +10454,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 238.76 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10118,7 +10464,7 @@
 		(fields_autoplaced yes)
 		(uuid "20da8547-80a8-476e-9c42-039848561b88")
 		(property "Reference" "LED10"
-			(at 251.46 16.4398 0)
+			(at 251.46 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10126,14 +10472,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 251.46 18.9798 0)
+			(at 251.46 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 240.03 30.48 0)
 			(effects
 				(font
@@ -10144,7 +10490,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 241.3 32.385 0)
+			(at 240.03 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,12 +10500,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 238.76 22.86 0)
+			(at 257.048 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 251.46 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10464,7 +10818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 121.92 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10474,7 +10828,7 @@
 		(fields_autoplaced yes)
 		(uuid "287f8991-9b88-42a4-b15f-cf1af673d4cb")
 		(property "Reference" "LED39"
-			(at 134.62 60.8898 0)
+			(at 134.62 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,14 +10836,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 134.62 63.4298 0)
+			(at 134.62 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 123.19 74.93 0)
 			(effects
 				(font
@@ -10500,7 +10854,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 124.46 76.835 0)
+			(at 123.19 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10510,12 +10864,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 121.92 67.31 0)
+			(at 140.208 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 134.62 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10540,7 +10902,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 453.39 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10550,7 +10912,7 @@
 		(fields_autoplaced yes)
 		(uuid "295af0d3-516e-4015-a455-8324eb6e2599")
 		(property "Reference" "LED31"
-			(at 466.09 35.4898 0)
+			(at 466.09 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10558,14 +10920,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 466.09 38.0298 0)
+			(at 466.09 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 454.66 49.53 0)
 			(effects
 				(font
@@ -10576,7 +10938,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 455.93 51.435 0)
+			(at 454.66 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10586,12 +10948,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 453.39 41.91 0)
+			(at 471.678 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 466.09 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10686,7 +11056,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 285.75 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10696,7 +11066,7 @@
 		(fields_autoplaced yes)
 		(uuid "29e736ec-4ae2-42c1-8f67-4a09dfbb6384")
 		(property "Reference" "LED82"
-			(at 298.45 111.6898 0)
+			(at 298.45 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,14 +11074,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 298.45 114.2298 0)
+			(at 298.45 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 287.02 125.73 0)
 			(effects
 				(font
@@ -10722,7 +11092,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 288.29 127.635 0)
+			(at 287.02 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,12 +11102,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 285.75 118.11 0)
+			(at 304.038 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 298.45 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10762,7 +11140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 146.05 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10772,7 +11150,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a575a0a-7b5d-4cea-8669-4a120eea5f8e")
 		(property "Reference" "LED19"
-			(at 158.75 35.4898 0)
+			(at 158.75 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,14 +11158,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 158.75 38.0298 0)
+			(at 158.75 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 147.32 49.53 0)
 			(effects
 				(font
@@ -10798,7 +11176,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 148.59 51.435 0)
+			(at 147.32 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,12 +11186,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 146.05 41.91 0)
+			(at 164.338 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 158.75 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10978,7 +11364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 309.88 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10988,7 +11374,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c570ccb-985b-46a0-9395-5d52539d1973")
 		(property "Reference" "LED13"
-			(at 322.58 16.4398 0)
+			(at 322.58 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,14 +11382,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 322.58 18.9798 0)
+			(at 322.58 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 311.15 30.48 0)
 			(effects
 				(font
@@ -11014,7 +11400,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 312.42 32.385 0)
+			(at 311.15 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11024,12 +11410,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 309.88 22.86 0)
+			(at 328.168 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 322.58 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11124,7 +11518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 419.1 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11134,7 +11528,7 @@
 		(fields_autoplaced yes)
 		(uuid "305d9e8f-7967-4405-98ea-4295dc551211")
 		(property "Reference" "LED99"
-			(at 431.8 139.6298 0)
+			(at 431.8 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,14 +11536,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 431.8 142.1698 0)
+			(at 431.8 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 420.37 153.67 0)
 			(effects
 				(font
@@ -11160,7 +11554,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 421.64 155.575 0)
+			(at 420.37 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,12 +11564,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 419.1 146.05 0)
+			(at 437.388 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 431.8 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11200,7 +11602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 477.52 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11210,7 +11612,7 @@
 		(fields_autoplaced yes)
 		(uuid "323e686f-29a8-45e0-ba4b-c8e40fb9a13a")
 		(property "Reference" "LED53"
-			(at 490.22 60.8898 0)
+			(at 490.22 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11218,14 +11620,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 490.22 63.4298 0)
+			(at 490.22 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 478.79 74.93 0)
 			(effects
 				(font
@@ -11236,7 +11638,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 480.06 76.835 0)
+			(at 478.79 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,12 +11648,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 477.52 67.31 0)
+			(at 495.808 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 490.22 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11276,7 +11686,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 77.47 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11286,7 +11696,7 @@
 		(fields_autoplaced yes)
 		(uuid "36f0deaa-23f8-4f20-8c18-7a61e8d084c3")
 		(property "Reference" "LED73"
-			(at 90.17 111.6898 0)
+			(at 90.17 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11294,14 +11704,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 90.17 114.2298 0)
+			(at 90.17 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 78.74 125.73 0)
 			(effects
 				(font
@@ -11312,7 +11722,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 80.01 127.635 0)
+			(at 78.74 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11322,12 +11732,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 77.47 118.11 0)
+			(at 95.758 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 90.17 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11493,6 +11911,76 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 30.48 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bbb1cc0-e7d9-4069-81fd-10e5d28681c3")
+		(property "Reference" "LEDBULKCAP2"
+			(at 33.02 168.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 33.02 171.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 30.48 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9267fc06-8e5c-4c50-9f76-8acda14f7ad8")
+		)
+		(pin "1"
+			(uuid "6c1d7426-8ad7-4243-9d27-896c3d3111e5")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
+					(reference "LEDBULKCAP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 21.59 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11562,7 +12050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 52.07 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11572,7 +12060,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cc05927-f969-44ff-ad78-ad03cba9c827")
 		(property "Reference" "LED90"
-			(at 64.77 139.6298 0)
+			(at 64.77 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11580,14 +12068,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 64.77 142.1698 0)
+			(at 64.77 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 53.34 153.67 0)
 			(effects
 				(font
@@ -11598,7 +12086,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 54.61 155.575 0)
+			(at 53.34 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11608,12 +12096,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 52.07 146.05 0)
+			(at 70.358 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 64.77 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -11708,7 +12204,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 168.91 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11718,7 +12214,7 @@
 		(fields_autoplaced yes)
 		(uuid "408f887c-b15f-4929-af3a-da49abb0ef60")
 		(property "Reference" "LED41"
-			(at 181.61 60.8898 0)
+			(at 181.61 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11726,14 +12222,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 181.61 63.4298 0)
+			(at 181.61 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -11744,7 +12240,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 171.45 76.835 0)
+			(at 170.18 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,12 +12250,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 168.91 67.31 0)
+			(at 187.198 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 181.61 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12064,7 +12568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 144.78 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12074,7 +12578,7 @@
 		(fields_autoplaced yes)
 		(uuid "45b4cf6f-d561-4e2e-a729-c756df45bcc3")
 		(property "Reference" "LED40"
-			(at 157.48 60.8898 0)
+			(at 157.48 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12082,14 +12586,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 157.48 63.4298 0)
+			(at 157.48 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 146.05 74.93 0)
 			(effects
 				(font
@@ -12100,7 +12604,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 147.32 76.835 0)
+			(at 146.05 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,12 +12614,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 144.78 67.31 0)
+			(at 163.068 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 157.48 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12210,7 +12722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 501.65 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12220,7 +12732,7 @@
 		(fields_autoplaced yes)
 		(uuid "471c04d0-7ac3-4a26-96d8-ba6c3d1888d7")
 		(property "Reference" "LED87"
-			(at 514.35 111.6898 0)
+			(at 514.35 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,14 +12740,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 514.35 114.2298 0)
+			(at 514.35 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 502.92 125.73 0)
 			(effects
 				(font
@@ -12246,7 +12758,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 504.19 127.635 0)
+			(at 502.92 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12256,12 +12768,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 501.65 118.11 0)
+			(at 519.938 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 514.35 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12356,7 +12876,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 331.47 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12366,7 +12886,7 @@
 		(fields_autoplaced yes)
 		(uuid "480bdd74-ead7-488e-a6a2-0b112141a614")
 		(property "Reference" "LED68"
-			(at 344.17 85.0198 0)
+			(at 344.17 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12374,14 +12894,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 344.17 87.5598 0)
+			(at 344.17 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 332.74 99.06 0)
 			(effects
 				(font
@@ -12392,7 +12912,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 334.01 100.965 0)
+			(at 332.74 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,12 +12922,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 331.47 91.44 0)
+			(at 349.758 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 344.17 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12502,7 +13030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 123.19 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12512,7 +13040,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b9a4db2-cebb-4b0d-b7c0-8653c44ca79b")
 		(property "Reference" "LED5"
-			(at 135.89 16.4398 0)
+			(at 135.89 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12520,14 +13048,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 135.89 18.9798 0)
+			(at 135.89 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 124.46 30.48 0)
 			(effects
 				(font
@@ -12538,7 +13066,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 125.73 32.385 0)
+			(at 124.46 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12548,12 +13076,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 123.19 22.86 0)
+			(at 141.478 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 135.89 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12587,7 +13123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c11bec7-fb6f-4343-82b3-a208c3b6f707")
-		(property "Reference" "DisplayLEDCAP2"
+		(property "Reference" "DisplayLEDCAP3"
 			(at 45.72 210.8262 0)
 			(effects
 				(font
@@ -12641,14 +13177,14 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
-					(reference "DisplayLEDCAP2")
+					(reference "DisplayLEDCAP3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 476.25 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12658,7 +13194,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cd07687-af65-4907-a3d2-ab0239272897")
 		(property "Reference" "DisplayLED1"
-			(at 488.95 16.4398 0)
+			(at 488.95 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12666,14 +13202,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 488.95 18.9798 0)
+			(at 488.95 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 477.52 30.48 0)
 			(effects
 				(font
@@ -12684,7 +13220,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 478.79 32.385 0)
+			(at 477.52 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12694,12 +13230,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 476.25 22.86 0)
+			(at 494.538 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 488.95 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12794,7 +13338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 76.2 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12804,7 +13348,7 @@
 		(fields_autoplaced yes)
 		(uuid "506a4e13-badd-4920-9988-9a09418b3c54")
 		(property "Reference" "LED37"
-			(at 88.9 60.8898 0)
+			(at 88.9 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12812,14 +13356,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 88.9 63.4298 0)
+			(at 88.9 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 77.47 74.93 0)
 			(effects
 				(font
@@ -12830,7 +13374,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 78.74 76.835 0)
+			(at 77.47 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12840,12 +13384,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 76.2 67.31 0)
+			(at 94.488 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 88.9 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12870,7 +13422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 331.47 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12894,7 +13446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 332.74 74.93 0)
 			(effects
 				(font
@@ -12905,7 +13457,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 334.01 76.835 0)
+			(at 332.74 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12915,12 +13467,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 331.47 67.31 0)
+			(at 349.758 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 331.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -12939,6 +13499,76 @@
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
 					(reference "LED48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527f4339-0f30-4669-84ac-93268f32750e")
+		(property "Reference" "LEDBULKCAP5"
+			(at 58.42 168.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 58.42 171.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 55.88 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5aa580ed-b735-469d-b902-dc9ef198cba7")
+		)
+		(pin "1"
+			(uuid "468ef62a-d1da-406e-ad3c-16b50f80b11d")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
+					(reference "LEDBULKCAP5")
 					(unit 1)
 				)
 			)
@@ -13085,7 +13715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 123.19 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13095,7 +13725,7 @@
 		(fields_autoplaced yes)
 		(uuid "5453a4d7-2d37-4298-8649-7b7244ddb773")
 		(property "Reference" "LED18"
-			(at 135.89 35.4898 0)
+			(at 135.89 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13103,14 +13733,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 135.89 38.0298 0)
+			(at 135.89 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 124.46 49.53 0)
 			(effects
 				(font
@@ -13121,7 +13751,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 125.73 51.435 0)
+			(at 124.46 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13131,12 +13761,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 123.19 41.91 0)
+			(at 141.478 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 135.89 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13301,7 +13939,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 77.47 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13311,7 +13949,7 @@
 		(fields_autoplaced yes)
 		(uuid "58857e8d-5f1e-4790-81b0-1e26fa187553")
 		(property "Reference" "LED16"
-			(at 90.17 35.4898 0)
+			(at 90.17 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13319,14 +13957,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 90.17 38.0298 0)
+			(at 90.17 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 78.74 49.53 0)
 			(effects
 				(font
@@ -13337,7 +13975,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 80.01 51.435 0)
+			(at 78.74 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,12 +13985,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 77.47 41.91 0)
+			(at 95.758 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 90.17 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13377,7 +14023,77 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "Device:C_Small")
+		(at 39.37 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "591a620d-64d6-4a8b-951f-e798c1d2c31d")
+		(property "Reference" "LEDBULKCAP3"
+			(at 41.91 168.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 41.91 171.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 39.37 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63a31490-eb0c-4dad-87ea-542e0ad574aa")
+		)
+		(pin "1"
+			(uuid "3a1e5cfc-da0e-49d1-a097-c6900690c00e")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
+					(reference "LEDBULKCAP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 215.9 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13387,7 +14103,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a630901-2db3-44ab-80a4-9ae08e9d599e")
 		(property "Reference" "LED79"
-			(at 228.6 111.6898 0)
+			(at 228.6 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,14 +14111,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 228.6 114.2298 0)
+			(at 228.6 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 217.17 125.73 0)
 			(effects
 				(font
@@ -13413,7 +14129,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 218.44 127.635 0)
+			(at 217.17 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13423,12 +14139,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 215.9 118.11 0)
+			(at 234.188 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 228.6 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13453,7 +14177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 392.43 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13463,7 +14187,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a9acd77-1fc4-4088-ac84-82ee70ab57e3")
 		(property "Reference" "LED50"
-			(at 405.13 60.8898 0)
+			(at 405.13 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13471,14 +14195,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 405.13 63.4298 0)
+			(at 405.13 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 393.7 74.93 0)
 			(effects
 				(font
@@ -13489,7 +14213,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 394.97 76.835 0)
+			(at 393.7 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,12 +14223,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 392.43 67.31 0)
+			(at 410.718 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 405.13 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13949,7 +14681,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 524.51 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13959,7 +14691,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fccf9ce-6a1b-47c2-910b-cdfd3c14c874")
 		(property "Reference" "LED34"
-			(at 537.21 35.4898 0)
+			(at 537.21 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13967,14 +14699,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 537.21 38.0298 0)
+			(at 537.21 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 525.78 49.53 0)
 			(effects
 				(font
@@ -13985,7 +14717,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 527.05 51.435 0)
+			(at 525.78 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13995,12 +14727,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 524.51 41.91 0)
+			(at 542.798 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 537.21 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14025,7 +14765,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 262.89 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14035,7 +14775,7 @@
 		(fields_autoplaced yes)
 		(uuid "615adcd7-2fc7-4719-8f1b-c24b6e84bf23")
 		(property "Reference" "LED11"
-			(at 275.59 16.4398 0)
+			(at 275.59 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14043,14 +14783,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 275.59 18.9798 0)
+			(at 275.59 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 264.16 30.48 0)
 			(effects
 				(font
@@ -14061,7 +14801,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 265.43 32.385 0)
+			(at 264.16 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14071,12 +14811,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 262.89 22.86 0)
+			(at 281.178 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 275.59 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14171,7 +14919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 262.89 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14181,7 +14929,7 @@
 		(fields_autoplaced yes)
 		(uuid "637b2cea-be03-4615-aadf-927b43f9b7e8")
 		(property "Reference" "LED93"
-			(at 275.59 139.6298 0)
+			(at 275.59 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,14 +14937,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 275.59 142.1698 0)
+			(at 275.59 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 264.16 153.67 0)
 			(effects
 				(font
@@ -14207,7 +14955,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 265.43 155.575 0)
+			(at 264.16 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,12 +14965,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 262.89 146.05 0)
+			(at 281.178 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 275.59 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14247,7 +15003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 368.3 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14257,7 +15013,7 @@
 		(fields_autoplaced yes)
 		(uuid "63973739-39d3-4a7c-838d-a92b9699ce89")
 		(property "Reference" "LED97"
-			(at 381 139.6298 0)
+			(at 381 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14265,14 +15021,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 381 142.1698 0)
+			(at 381 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 369.57 153.67 0)
 			(effects
 				(font
@@ -14283,7 +15039,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 370.84 155.575 0)
+			(at 369.57 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14293,12 +15049,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 368.3 146.05 0)
+			(at 386.588 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 381 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14323,7 +15087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 53.34 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14333,7 +15097,7 @@
 		(fields_autoplaced yes)
 		(uuid "639e359c-305d-40d5-8c30-0ba67995d060")
 		(property "Reference" "LED15"
-			(at 66.04 35.4898 0)
+			(at 66.04 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14341,14 +15105,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 66.04 38.0298 0)
+			(at 66.04 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 54.61 49.53 0)
 			(effects
 				(font
@@ -14359,7 +15123,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 55.88 51.435 0)
+			(at 54.61 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14369,12 +15133,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 53.34 41.91 0)
+			(at 71.628 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 66.04 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14399,7 +15171,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 476.25 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14409,7 +15181,7 @@
 		(fields_autoplaced yes)
 		(uuid "658da494-a7f5-48c4-a729-3678ff6571d4")
 		(property "Reference" "LED32"
-			(at 488.95 35.4898 0)
+			(at 488.95 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14417,14 +15189,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 488.95 38.0298 0)
+			(at 488.95 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 477.52 49.53 0)
 			(effects
 				(font
@@ -14435,7 +15207,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 478.79 51.435 0)
+			(at 477.52 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,12 +15217,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 476.25 41.91 0)
+			(at 494.538 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 488.95 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14545,7 +15325,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 416.56 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14555,7 +15335,7 @@
 		(fields_autoplaced yes)
 		(uuid "682ebefd-ae77-431b-b5fa-6ab3907d1f55")
 		(property "Reference" "LED30"
-			(at 429.26 35.4898 0)
+			(at 429.26 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14563,14 +15343,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 429.26 38.0298 0)
+			(at 429.26 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 417.83 49.53 0)
 			(effects
 				(font
@@ -14581,7 +15361,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 419.1 51.435 0)
+			(at 417.83 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14591,12 +15371,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 416.56 41.91 0)
+			(at 434.848 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 429.26 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14621,7 +15409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 500.38 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14631,7 +15419,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a20cb21-4a64-4b8e-9fff-8f68ac952598")
 		(property "Reference" "LED101"
-			(at 513.08 139.6298 0)
+			(at 513.08 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14639,14 +15427,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 513.08 142.1698 0)
+			(at 513.08 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 501.65 153.67 0)
 			(effects
 				(font
@@ -14657,7 +15445,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 502.92 155.575 0)
+			(at 501.65 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14667,12 +15455,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 500.38 146.05 0)
+			(at 518.668 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 513.08 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14767,7 +15563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 453.39 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14777,7 +15573,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b4c9b77-b9dd-45da-8a1c-88e645e0f437")
 		(property "Reference" "LED85"
-			(at 466.09 111.6898 0)
+			(at 466.09 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14785,14 +15581,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 466.09 114.2298 0)
+			(at 466.09 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 454.66 125.73 0)
 			(effects
 				(font
@@ -14803,7 +15599,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 455.93 127.635 0)
+			(at 454.66 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14813,12 +15609,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 453.39 118.11 0)
+			(at 471.678 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 466.09 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14843,7 +15647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 170.18 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14853,7 +15657,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bfb286a-8268-4a8f-abb0-2996f3664deb")
 		(property "Reference" "LED20"
-			(at 182.88 35.4898 0)
+			(at 182.88 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14861,14 +15665,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 182.88 38.0298 0)
+			(at 182.88 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 171.45 49.53 0)
 			(effects
 				(font
@@ -14879,7 +15683,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 172.72 51.435 0)
+			(at 171.45 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14889,12 +15693,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 170.18 41.91 0)
+			(at 188.468 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 182.88 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -14919,7 +15731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 261.62 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14929,7 +15741,7 @@
 		(fields_autoplaced yes)
 		(uuid "6cc48063-007c-4f75-a104-ed3704d8de39")
 		(property "Reference" "LED66"
-			(at 274.32 85.0198 0)
+			(at 274.32 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14937,14 +15749,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 274.32 87.5598 0)
+			(at 274.32 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 262.89 99.06 0)
 			(effects
 				(font
@@ -14955,7 +15767,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 264.16 100.965 0)
+			(at 262.89 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14965,12 +15777,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 261.62 91.44 0)
+			(at 279.908 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 274.32 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15065,7 +15885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 262.89 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15075,7 +15895,7 @@
 		(fields_autoplaced yes)
 		(uuid "708c3aae-30a9-4bde-bedf-e8ae13b18b32")
 		(property "Reference" "LED81"
-			(at 275.59 111.6898 0)
+			(at 275.59 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15083,14 +15903,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 275.59 114.2298 0)
+			(at 275.59 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 264.16 125.73 0)
 			(effects
 				(font
@@ -15101,7 +15921,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 265.43 127.635 0)
+			(at 264.16 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15111,12 +15931,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 262.89 118.11 0)
+			(at 281.178 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 275.59 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15421,7 +16249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 453.39 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15431,7 +16259,7 @@
 		(fields_autoplaced yes)
 		(uuid "7831c1ae-dbc1-4612-a136-eb085689c2f6")
 		(property "Reference" "LED52"
-			(at 466.09 60.8898 0)
+			(at 466.09 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15439,14 +16267,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 466.09 63.4298 0)
+			(at 466.09 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 454.66 74.93 0)
 			(effects
 				(font
@@ -15457,7 +16285,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 455.93 76.835 0)
+			(at 454.66 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,12 +16295,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 453.39 67.31 0)
+			(at 471.678 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 466.09 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15637,7 +16473,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 501.65 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15647,7 +16483,7 @@
 		(fields_autoplaced yes)
 		(uuid "790bd968-4e96-49ec-a3e2-d1d1d87f7865")
 		(property "Reference" "LED71"
-			(at 514.35 85.0198 0)
+			(at 514.35 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15655,14 +16491,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 514.35 87.5598 0)
+			(at 514.35 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 502.92 99.06 0)
 			(effects
 				(font
@@ -15673,7 +16509,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 504.19 100.965 0)
+			(at 502.92 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15683,12 +16519,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 501.65 91.44 0)
+			(at 519.938 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 514.35 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15713,7 +16557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 262.89 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15723,7 +16567,7 @@
 		(fields_autoplaced yes)
 		(uuid "7914dcfd-87b0-47bc-a8ef-5c706115afc1")
 		(property "Reference" "LED24"
-			(at 275.59 35.4898 0)
+			(at 275.59 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,14 +16575,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 275.59 38.0298 0)
+			(at 275.59 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 264.16 49.53 0)
 			(effects
 				(font
@@ -15749,7 +16593,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 265.43 51.435 0)
+			(at 264.16 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15759,12 +16603,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 262.89 41.91 0)
+			(at 281.178 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 275.59 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15789,7 +16641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 285.75 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15799,7 +16651,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a4421ac-5232-4045-af37-29919380d976")
 		(property "Reference" "LED94"
-			(at 298.45 139.6298 0)
+			(at 298.45 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15807,14 +16659,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 298.45 142.1698 0)
+			(at 298.45 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 287.02 153.67 0)
 			(effects
 				(font
@@ -15825,7 +16677,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 288.29 155.575 0)
+			(at 287.02 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15835,12 +16687,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 285.75 146.05 0)
+			(at 304.038 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 298.45 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15865,7 +16725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 368.3 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15875,7 +16735,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ab3c922-b758-467a-8a64-84c2e6668185")
 		(property "Reference" "LED49"
-			(at 381 60.8898 0)
+			(at 381 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15883,14 +16743,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 381 63.4298 0)
+			(at 381 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 369.57 74.93 0)
 			(effects
 				(font
@@ -15901,7 +16761,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 370.84 76.835 0)
+			(at 369.57 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15911,12 +16771,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 368.3 67.31 0)
+			(at 386.588 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 381 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -15941,7 +16809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 170.18 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15951,7 +16819,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c44b475-2774-427d-9d59-d369a48a5bf1")
 		(property "Reference" "LED77"
-			(at 182.88 111.6898 0)
+			(at 182.88 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15959,14 +16827,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 182.88 114.2298 0)
+			(at 182.88 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -15977,7 +16845,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 172.72 127.635 0)
+			(at 171.45 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15987,12 +16855,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 170.18 118.11 0)
+			(at 188.468 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 182.88 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16017,7 +16893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 392.43 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16027,7 +16903,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d274978-f20f-41a9-8592-2bb066570476")
 		(property "Reference" "LED84"
-			(at 405.13 111.6898 0)
+			(at 405.13 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16035,14 +16911,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 405.13 114.2298 0)
+			(at 405.13 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 393.7 125.73 0)
 			(effects
 				(font
@@ -16053,7 +16929,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 394.97 127.635 0)
+			(at 393.7 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16063,12 +16939,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 392.43 118.11 0)
+			(at 410.718 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 405.13 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16163,7 +17047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 309.88 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16173,7 +17057,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dff67af-b3f0-4674-8c2f-1e02a0a1e0e6")
 		(property "Reference" "LED26"
-			(at 322.58 35.4898 0)
+			(at 322.58 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16181,14 +17065,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 322.58 38.0298 0)
+			(at 322.58 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 311.15 49.53 0)
 			(effects
 				(font
@@ -16199,7 +17083,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 312.42 51.435 0)
+			(at 311.15 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16209,12 +17093,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 309.88 41.91 0)
+			(at 328.168 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 322.58 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16379,7 +17271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 501.65 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16389,7 +17281,7 @@
 		(fields_autoplaced yes)
 		(uuid "86d5a4ff-498c-4118-bafb-6ca319c3d648")
 		(property "Reference" "LED54"
-			(at 514.35 60.8898 0)
+			(at 514.35 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16397,14 +17289,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 514.35 63.4298 0)
+			(at 514.35 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 502.92 74.93 0)
 			(effects
 				(font
@@ -16415,7 +17307,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 504.19 76.835 0)
+			(at 502.92 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16425,12 +17317,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 501.65 67.31 0)
+			(at 519.938 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 514.35 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16525,7 +17425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 30.48 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16535,7 +17435,7 @@
 		(fields_autoplaced yes)
 		(uuid "87b600d6-a853-46ce-af53-97d5910dc3cb")
 		(property "Reference" "LED14"
-			(at 43.18 35.4898 0)
+			(at 43.18 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16543,14 +17443,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 43.18 38.0298 0)
+			(at 43.18 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -16561,7 +17461,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 33.02 51.435 0)
+			(at 31.75 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16571,12 +17471,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 30.48 41.91 0)
+			(at 48.768 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 43.18 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16671,7 +17579,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 453.39 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16681,7 +17589,7 @@
 		(fields_autoplaced yes)
 		(uuid "88153389-c56e-4824-a101-312241effcd8")
 		(property "Reference" "LED100"
-			(at 466.09 139.6298 0)
+			(at 466.09 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,14 +17597,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 466.09 142.1698 0)
+			(at 466.09 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 454.66 153.67 0)
 			(effects
 				(font
@@ -16707,7 +17615,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 455.93 155.575 0)
+			(at 454.66 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16717,12 +17625,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 453.39 146.05 0)
+			(at 471.678 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 466.09 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16817,7 +17733,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 285.75 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16827,7 +17743,7 @@
 		(fields_autoplaced yes)
 		(uuid "88759b10-b567-41a3-af0a-31ac7fbddfc8")
 		(property "Reference" "LED12"
-			(at 298.45 16.4398 0)
+			(at 298.45 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16835,14 +17751,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 298.45 18.9798 0)
+			(at 298.45 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 287.02 30.48 0)
 			(effects
 				(font
@@ -16853,7 +17769,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 288.29 32.385 0)
+			(at 287.02 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16863,12 +17779,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 285.75 22.86 0)
+			(at 304.038 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 298.45 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16893,7 +17817,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 477.52 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16903,7 +17827,7 @@
 		(fields_autoplaced yes)
 		(uuid "891be09b-b6d3-4bc2-a248-7f23e01be866")
 		(property "Reference" "LED86"
-			(at 490.22 111.6898 0)
+			(at 490.22 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16911,14 +17835,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 490.22 114.2298 0)
+			(at 490.22 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 478.79 125.73 0)
 			(effects
 				(font
@@ -16929,7 +17853,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 480.06 127.635 0)
+			(at 478.79 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16939,12 +17863,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 477.52 118.11 0)
+			(at 495.808 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 490.22 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16969,7 +17901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 99.06 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16979,7 +17911,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ccf5506-4fcb-416f-a9b8-c77d9f6d5581")
 		(property "Reference" "LED38"
-			(at 111.76 60.8898 0)
+			(at 111.76 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16987,14 +17919,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 111.76 63.4298 0)
+			(at 111.76 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 100.33 74.93 0)
 			(effects
 				(font
@@ -17005,7 +17937,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 101.6 76.835 0)
+			(at 100.33 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17015,12 +17947,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 99.06 67.31 0)
+			(at 117.348 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 111.76 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17115,7 +18055,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 100.33 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17125,7 +18065,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f2b1fce-d4ec-43b0-9347-6822a3a665dd")
 		(property "Reference" "LED74"
-			(at 113.03 111.6898 0)
+			(at 113.03 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17133,14 +18073,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 113.03 114.2298 0)
+			(at 113.03 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 101.6 125.73 0)
 			(effects
 				(font
@@ -17151,7 +18091,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 102.87 127.635 0)
+			(at 101.6 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17161,12 +18101,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 118.11 0)
+			(at 118.618 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 113.03 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17340,7 +18288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90e969c5-9faf-44db-8302-d869410f085a")
-		(property "Reference" "DisplayLEDCAP102"
+		(property "Reference" "DisplayLEDCAP1"
 			(at 22.86 210.8262 0)
 			(effects
 				(font
@@ -17394,14 +18342,14 @@
 		(instances
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
-					(reference "DisplayLEDCAP102")
+					(reference "DisplayLEDCAP1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 453.39 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17411,7 +18359,7 @@
 		(fields_autoplaced yes)
 		(uuid "927d8e52-bc49-4bc6-8dc2-f52ca389050e")
 		(property "Reference" "LED69"
-			(at 466.09 85.0198 0)
+			(at 466.09 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17419,14 +18367,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 466.09 87.5598 0)
+			(at 466.09 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 454.66 99.06 0)
 			(effects
 				(font
@@ -17437,7 +18385,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 455.93 100.965 0)
+			(at 454.66 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17447,12 +18395,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 453.39 91.44 0)
+			(at 471.678 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 466.09 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17617,7 +18573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 100.33 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17627,7 +18583,7 @@
 		(fields_autoplaced yes)
 		(uuid "98437ab6-4113-4d18-8617-63ca10ec8b05")
 		(property "Reference" "LED4"
-			(at 113.03 16.4398 0)
+			(at 113.03 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17635,14 +18591,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 113.03 18.9798 0)
+			(at 113.03 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 101.6 30.48 0)
 			(effects
 				(font
@@ -17653,7 +18609,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 102.87 32.385 0)
+			(at 101.6 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17663,12 +18619,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 100.33 22.86 0)
+			(at 118.618 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 113.03 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17973,7 +18937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 238.76 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17983,7 +18947,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f0577b0-dfd3-4c35-91ae-7b335693db05")
 		(property "Reference" "LED80"
-			(at 251.46 111.6898 0)
+			(at 251.46 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17991,14 +18955,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 251.46 114.2298 0)
+			(at 251.46 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 240.03 125.73 0)
 			(effects
 				(font
@@ -18009,7 +18973,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 241.3 127.635 0)
+			(at 240.03 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18019,12 +18983,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 238.76 118.11 0)
+			(at 257.048 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 251.46 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18119,7 +19091,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 308.61 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18129,7 +19101,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0d590e4-1274-4b84-9ebb-78c3c0c4eaef")
 		(property "Reference" "LED95"
-			(at 321.31 139.6298 0)
+			(at 321.31 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18137,14 +19109,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 321.31 142.1698 0)
+			(at 321.31 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 309.88 153.67 0)
 			(effects
 				(font
@@ -18155,7 +19127,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 311.15 155.575 0)
+			(at 309.88 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18165,12 +19137,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 308.61 146.05 0)
+			(at 326.898 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 321.31 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18265,7 +19245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 53.34 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18275,7 +19255,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2e2cb19-6583-4bb2-a32a-d955fbe4bc61")
 		(property "Reference" "LED2"
-			(at 66.04 16.4398 0)
+			(at 66.04 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18283,14 +19263,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 66.04 18.9798 0)
+			(at 66.04 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 54.61 30.48 0)
 			(effects
 				(font
@@ -18301,7 +19281,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 55.88 32.385 0)
+			(at 54.61 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18311,12 +19291,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 53.34 22.86 0)
+			(at 71.628 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 66.04 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18341,7 +19329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 52.07 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18351,7 +19339,7 @@
 		(fields_autoplaced yes)
 		(uuid "a31bcc90-147e-4250-bbe5-1c70ed00bd15")
 		(property "Reference" "LED57"
-			(at 64.77 85.0198 0)
+			(at 64.77 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18359,14 +19347,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 64.77 87.5598 0)
+			(at 64.77 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 53.34 99.06 0)
 			(effects
 				(font
@@ -18377,7 +19365,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 54.61 100.965 0)
+			(at 53.34 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18387,12 +19375,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 52.07 91.44 0)
+			(at 70.358 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 64.77 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18417,7 +19413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 500.38 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18427,7 +19423,7 @@
 		(fields_autoplaced yes)
 		(uuid "a492c88d-5c56-43a2-bcd0-2916887847e6")
 		(property "Reference" "LED33"
-			(at 513.08 35.4898 0)
+			(at 513.08 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18435,14 +19431,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 513.08 38.0298 0)
+			(at 513.08 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 501.65 49.53 0)
 			(effects
 				(font
@@ -18453,7 +19449,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 502.92 51.435 0)
+			(at 501.65 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18463,12 +19459,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 500.38 41.91 0)
+			(at 518.668 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 513.08 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18703,7 +19707,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 30.48 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18713,7 +19717,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8d6da4a-ecae-4c85-bf8a-e39d65e4530f")
 		(property "Reference" "LED1"
-			(at 43.18 16.4398 0)
+			(at 43.18 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18721,14 +19725,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 43.18 18.9798 0)
+			(at 43.18 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 31.75 30.48 0)
 			(effects
 				(font
@@ -18739,7 +19743,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 33.02 32.385 0)
+			(at 31.75 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18749,12 +19753,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 30.48 22.86 0)
+			(at 48.768 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 43.18 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18779,7 +19791,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 392.43 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18789,7 +19801,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9af3530-f3e7-4ede-b3ab-ca956154fd36")
 		(property "Reference" "LED29"
-			(at 405.13 35.4898 0)
+			(at 405.13 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18797,14 +19809,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 405.13 38.0298 0)
+			(at 405.13 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 393.7 49.53 0)
 			(effects
 				(font
@@ -18815,7 +19827,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 394.97 51.435 0)
+			(at 393.7 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18825,12 +19837,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 392.43 41.91 0)
+			(at 410.718 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 405.13 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18855,7 +19875,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 524.51 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18865,7 +19885,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab250100-dee9-47f9-8451-b7e1c31d5bed")
 		(property "Reference" "DisplayLED3"
-			(at 537.21 16.4398 0)
+			(at 537.21 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,14 +19893,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 537.21 18.9798 0)
+			(at 537.21 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 525.78 30.48 0)
 			(effects
 				(font
@@ -18891,7 +19911,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 527.05 32.385 0)
+			(at 525.78 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18901,12 +19921,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 524.51 22.86 0)
+			(at 542.798 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 537.21 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -18925,6 +19953,74 @@
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
 					(reference "DisplayLED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 510.54 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac405b2d-dbd4-4f69-b19b-1c87971daee2")
+		(property "Reference" "R5"
+			(at 510.54 140.97 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "500R"
+			(at 510.54 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Resistor_0402"
+			(at 510.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 510.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 510.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc3e765e-85c6-4143-96a0-cf37eb4f23d5")
+		)
+		(pin "2"
+			(uuid "4ca9f353-7ba5-42cc-b6e6-d84debfe94cc")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -19001,7 +20097,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 392.43 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19011,7 +20107,7 @@
 		(fields_autoplaced yes)
 		(uuid "afa930e3-d82b-4645-a7e3-3c7b1375f953")
 		(property "Reference" "LED98"
-			(at 405.13 139.6298 0)
+			(at 405.13 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19019,14 +20115,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 405.13 142.1698 0)
+			(at 405.13 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 393.7 153.67 0)
 			(effects
 				(font
@@ -19037,7 +20133,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 394.97 155.575 0)
+			(at 393.7 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19047,12 +20143,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 392.43 146.05 0)
+			(at 410.718 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 405.13 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19077,7 +20181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 170.18 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19087,7 +20191,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0c41f01-08cc-43ca-844f-69f0e7d28545")
 		(property "Reference" "LED7"
-			(at 182.88 16.4398 0)
+			(at 182.88 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19095,14 +20199,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 182.88 18.9798 0)
+			(at 182.88 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 171.45 30.48 0)
 			(effects
 				(font
@@ -19113,7 +20217,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 172.72 32.385 0)
+			(at 171.45 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19123,12 +20227,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 170.18 22.86 0)
+			(at 188.468 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 182.88 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19153,7 +20265,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 332.74 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19163,7 +20275,7 @@
 		(fields_autoplaced yes)
 		(uuid "b126ed45-e140-49a9-84bf-6948cd3e08be")
 		(property "Reference" "LED27"
-			(at 345.44 35.4898 0)
+			(at 345.44 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19171,14 +20283,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 345.44 38.0298 0)
+			(at 345.44 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 334.01 49.53 0)
 			(effects
 				(font
@@ -19189,7 +20301,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 335.28 51.435 0)
+			(at 334.01 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19199,12 +20311,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 332.74 41.91 0)
+			(at 351.028 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 345.44 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19369,7 +20489,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 332.74 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19379,7 +20499,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4f11d35-ed94-453a-b5a6-c124f244bd6e")
 		(property "Reference" "LED83"
-			(at 345.44 111.6898 0)
+			(at 345.44 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19387,14 +20507,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 345.44 114.2298 0)
+			(at 345.44 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 334.01 125.73 0)
 			(effects
 				(font
@@ -19405,7 +20525,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 335.28 127.635 0)
+			(at 334.01 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19415,12 +20535,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 332.74 118.11 0)
+			(at 351.028 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 345.44 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19445,7 +20573,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 77.47 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19455,7 +20583,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5809843-f2b5-4719-a396-c041cf9e04a6")
 		(property "Reference" "LED3"
-			(at 90.17 16.4398 0)
+			(at 90.17 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19463,14 +20591,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 90.17 18.9798 0)
+			(at 90.17 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 78.74 30.48 0)
 			(effects
 				(font
@@ -19481,7 +20609,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 80.01 32.385 0)
+			(at 78.74 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19491,12 +20619,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 77.47 22.86 0)
+			(at 95.758 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 90.17 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19521,7 +20657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 76.2 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19531,7 +20667,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7da6d08-34e7-40bb-8443-c3a16a58b8d6")
 		(property "Reference" "LED58"
-			(at 88.9 85.0198 0)
+			(at 88.9 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19539,14 +20675,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 88.9 87.5598 0)
+			(at 88.9 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 77.47 99.06 0)
 			(effects
 				(font
@@ -19557,7 +20693,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 78.74 100.965 0)
+			(at 77.47 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19567,12 +20703,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 76.2 91.44 0)
+			(at 94.488 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 88.9 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19667,7 +20811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 193.04 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19677,7 +20821,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba89dee5-9f63-4222-ad34-a7bac32d45b9")
 		(property "Reference" "LED8"
-			(at 205.74 16.4398 0)
+			(at 205.74 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19685,14 +20829,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 205.74 18.9798 0)
+			(at 205.74 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 194.31 30.48 0)
 			(effects
 				(font
@@ -19703,7 +20847,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 195.58 32.385 0)
+			(at 194.31 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19713,12 +20857,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 193.04 22.86 0)
+			(at 211.328 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 205.74 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19830,7 +20982,7 @@
 				)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "500R"
 			(at 20.32 20.32 90)
 			(effects
 				(font
@@ -19951,7 +21103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 29.21 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19961,7 +21113,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd481730-88bc-455e-a90d-e62400760837")
 		(property "Reference" "LED72"
-			(at 41.91 111.6898 0)
+			(at 41.91 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19969,14 +21121,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 41.91 114.2298 0)
+			(at 41.91 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 30.48 125.73 0)
 			(effects
 				(font
@@ -19987,7 +21139,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 31.75 127.635 0)
+			(at 30.48 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19997,12 +21149,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 29.21 118.11 0)
+			(at 47.498 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 41.91 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20097,7 +21257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 261.62 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20107,7 +21267,7 @@
 		(fields_autoplaced yes)
 		(uuid "be3c6fe6-5863-476a-943d-44638c07c9e0")
 		(property "Reference" "LED45"
-			(at 274.32 60.8898 0)
+			(at 274.32 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20115,14 +21275,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 274.32 63.4298 0)
+			(at 274.32 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 262.89 74.93 0)
 			(effects
 				(font
@@ -20133,7 +21293,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 264.16 76.835 0)
+			(at 262.89 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20143,12 +21303,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 261.62 67.31 0)
+			(at 279.908 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 274.32 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20173,7 +21341,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 237.49 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20183,7 +21351,7 @@
 		(fields_autoplaced yes)
 		(uuid "be70b727-f764-4985-87dd-af3283e9ecae")
 		(property "Reference" "LED65"
-			(at 250.19 85.0198 0)
+			(at 250.19 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20191,14 +21359,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 250.19 87.5598 0)
+			(at 250.19 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 238.76 99.06 0)
 			(effects
 				(font
@@ -20209,7 +21377,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 240.03 100.965 0)
+			(at 238.76 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20219,12 +21387,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 237.49 91.44 0)
+			(at 255.778 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 250.19 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20249,7 +21425,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 29.21 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20259,7 +21435,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf832ac9-f7d7-444b-94f9-6135cacafd24")
 		(property "Reference" "LED89"
-			(at 41.91 139.6298 0)
+			(at 41.91 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20267,14 +21443,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 41.91 142.1698 0)
+			(at 41.91 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 30.48 153.67 0)
 			(effects
 				(font
@@ -20285,7 +21461,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 31.75 155.575 0)
+			(at 30.48 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20295,12 +21471,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 29.21 146.05 0)
+			(at 47.498 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 41.91 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20325,7 +21509,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 500.38 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20335,7 +21519,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfb62831-cab9-4216-a0ff-a200290f6357")
 		(property "Reference" "DisplayLED2"
-			(at 513.08 16.4398 0)
+			(at 513.08 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20343,14 +21527,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 513.08 18.9798 0)
+			(at 513.08 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 501.65 30.48 0)
 			(effects
 				(font
@@ -20361,7 +21545,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 502.92 32.385 0)
+			(at 501.65 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20371,12 +21555,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 500.38 22.86 0)
+			(at 518.668 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 513.08 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20681,7 +21873,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 29.21 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20691,7 +21883,7 @@
 		(fields_autoplaced yes)
 		(uuid "c688a380-095b-43b1-a153-ba565973be36")
 		(property "Reference" "LED35"
-			(at 41.91 60.8898 0)
+			(at 41.91 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20699,14 +21891,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 41.91 63.4298 0)
+			(at 41.91 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 30.48 74.93 0)
 			(effects
 				(font
@@ -20717,7 +21909,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 31.75 76.835 0)
+			(at 30.48 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20727,12 +21919,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 29.21 67.31 0)
+			(at 47.498 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 41.91 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20827,7 +22027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 214.63 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20837,7 +22037,7 @@
 		(fields_autoplaced yes)
 		(uuid "c96612d9-0dfc-4930-a505-e7c3667e2afe")
 		(property "Reference" "LED64"
-			(at 227.33 85.0198 0)
+			(at 227.33 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20845,14 +22045,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 227.33 87.5598 0)
+			(at 227.33 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -20863,7 +22063,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 217.17 100.965 0)
+			(at 215.9 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20873,12 +22073,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 214.63 91.44 0)
+			(at 232.918 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 227.33 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20973,7 +22181,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 214.63 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20983,7 +22191,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9b3b017-6323-4ef6-b39d-11fbd079e36b")
 		(property "Reference" "LED43"
-			(at 227.33 60.8898 0)
+			(at 227.33 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20991,14 +22199,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 227.33 63.4298 0)
+			(at 227.33 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 215.9 74.93 0)
 			(effects
 				(font
@@ -21009,7 +22217,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 217.17 76.835 0)
+			(at 215.9 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21019,12 +22227,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 214.63 67.31 0)
+			(at 232.918 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 227.33 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21119,7 +22335,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 215.9 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21129,7 +22345,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbdd1388-cba7-4b69-a1c1-8e1e00e23853")
 		(property "Reference" "LED22"
-			(at 228.6 35.4898 0)
+			(at 228.6 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21137,14 +22353,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 228.6 38.0298 0)
+			(at 228.6 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 217.17 49.53 0)
 			(effects
 				(font
@@ -21155,7 +22371,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 218.44 51.435 0)
+			(at 217.17 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21165,12 +22381,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 215.9 41.91 0)
+			(at 234.188 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 228.6 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21405,7 +22629,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 146.05 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21415,7 +22639,7 @@
 		(fields_autoplaced yes)
 		(uuid "d440bb71-c1b1-4339-a9d0-0ed20bd54028")
 		(property "Reference" "LED76"
-			(at 158.75 111.6898 0)
+			(at 158.75 109.1498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21423,14 +22647,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 158.75 114.2298 0)
+			(at 158.75 111.6898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 147.32 125.73 0)
 			(effects
 				(font
@@ -21441,7 +22665,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 148.59 127.635 0)
+			(at 147.32 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21451,12 +22675,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 146.05 118.11 0)
+			(at 164.338 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 158.75 114.2298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21551,7 +22783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 191.77 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21561,7 +22793,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ccedab-0023-4860-9c2e-a388afa1ed7f")
 		(property "Reference" "LED63"
-			(at 204.47 85.0198 0)
+			(at 204.47 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21569,14 +22801,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 204.47 87.5598 0)
+			(at 204.47 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 193.04 99.06 0)
 			(effects
 				(font
@@ -21587,7 +22819,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 194.31 100.965 0)
+			(at 193.04 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21597,12 +22829,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 191.77 91.44 0)
+			(at 210.058 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 204.47 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21837,7 +23077,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 215.9 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21847,7 +23087,7 @@
 		(fields_autoplaced yes)
 		(uuid "db91da2e-90e2-4ef3-aab8-8d9753d16843")
 		(property "Reference" "LED9"
-			(at 228.6 16.4398 0)
+			(at 228.6 13.8998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21855,14 +23095,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 228.6 18.9798 0)
+			(at 228.6 16.4398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 217.17 30.48 0)
 			(effects
 				(font
@@ -21873,7 +23113,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 218.44 32.385 0)
+			(at 217.17 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21883,12 +23123,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 215.9 22.86 0)
+			(at 234.188 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 228.6 18.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21983,7 +23231,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 332.74 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21993,7 +23241,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0a77b63-428e-48f4-b4e7-af4c1680f8a2")
 		(property "Reference" "LED96"
-			(at 345.44 139.6298 0)
+			(at 345.44 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22001,14 +23249,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 345.44 142.1698 0)
+			(at 345.44 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 334.01 153.67 0)
 			(effects
 				(font
@@ -22019,7 +23267,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 335.28 155.575 0)
+			(at 334.01 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22029,12 +23277,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 332.74 146.05 0)
+			(at 351.028 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 345.44 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22129,7 +23385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 29.21 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22139,7 +23395,7 @@
 		(fields_autoplaced yes)
 		(uuid "e38bc2ca-0e50-4cc8-8a7c-6e33174f7055")
 		(property "Reference" "LED56"
-			(at 41.91 85.0198 0)
+			(at 41.91 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22147,14 +23403,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 41.91 87.5598 0)
+			(at 41.91 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 30.48 99.06 0)
 			(effects
 				(font
@@ -22165,7 +23421,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 31.75 100.965 0)
+			(at 30.48 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22175,12 +23431,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 29.21 91.44 0)
+			(at 47.498 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 41.91 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22275,7 +23539,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 237.49 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22285,7 +23549,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7040759-ab40-46a8-9268-890201acdc68")
 		(property "Reference" "LED44"
-			(at 250.19 60.8898 0)
+			(at 250.19 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22293,14 +23557,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 250.19 63.4298 0)
+			(at 250.19 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -22311,7 +23575,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 240.03 76.835 0)
+			(at 238.76 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22321,12 +23585,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 237.49 67.31 0)
+			(at 255.778 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 250.19 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22351,7 +23623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 284.48 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22361,7 +23633,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaa99ed2-4c64-44a1-a877-e9e652e21c7c")
 		(property "Reference" "LED46"
-			(at 297.18 60.8898 0)
+			(at 297.18 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22369,14 +23641,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 297.18 63.4298 0)
+			(at 297.18 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 285.75 74.93 0)
 			(effects
 				(font
@@ -22387,7 +23659,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 287.02 76.835 0)
+			(at 285.75 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22397,12 +23669,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 284.48 67.31 0)
+			(at 302.768 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 297.18 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22567,7 +23847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 477.52 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22577,7 +23857,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee55d0d1-6709-4c98-a682-3f5c1f33eb83")
 		(property "Reference" "LED70"
-			(at 490.22 85.0198 0)
+			(at 490.22 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22585,14 +23865,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 490.22 87.5598 0)
+			(at 490.22 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 478.79 99.06 0)
 			(effects
 				(font
@@ -22603,7 +23883,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 480.06 100.965 0)
+			(at 478.79 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22613,12 +23893,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 477.52 91.44 0)
+			(at 495.808 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 490.22 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22643,7 +23931,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 76.2 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22653,7 +23941,7 @@
 		(fields_autoplaced yes)
 		(uuid "eeeb936a-aa41-4187-be74-c37f0cc79c58")
 		(property "Reference" "LED91"
-			(at 88.9 139.6298 0)
+			(at 88.9 137.0898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22661,14 +23949,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 88.9 142.1698 0)
+			(at 88.9 139.6298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 77.47 153.67 0)
 			(effects
 				(font
@@ -22679,7 +23967,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 78.74 155.575 0)
+			(at 77.47 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22689,12 +23977,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 76.2 146.05 0)
+			(at 94.488 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 88.9 142.1698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22719,7 +24015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 144.78 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22729,7 +24025,7 @@
 		(fields_autoplaced yes)
 		(uuid "eef7704b-90c5-468a-9849-ca8edba4292d")
 		(property "Reference" "LED61"
-			(at 157.48 85.0198 0)
+			(at 157.48 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22737,14 +24033,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 157.48 87.5598 0)
+			(at 157.48 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 146.05 99.06 0)
 			(effects
 				(font
@@ -22755,7 +24051,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 147.32 100.965 0)
+			(at 146.05 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22765,12 +24061,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 144.78 91.44 0)
+			(at 163.068 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 157.48 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22789,6 +24093,76 @@
 			(project "ScottoModules"
 				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
 					(reference "LED61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef2761c8-531b-4e56-ac3b-69c5d036999d")
+		(property "Reference" "LEDBULKCAP6"
+			(at 67.31 168.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 67.31 171.4562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Components:Capacitor_0402"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0e119b4e-d043-4a73-9e50-b60095a08c43")
+		)
+		(pin "1"
+			(uuid "0bc68924-e7b5-4625-a71c-d3a824255055")
+		)
+		(instances
+			(project "ScottoModules"
+				(path "/92054fa3-5ad0-458e-bd73-acbcf8d11243/e384a74f-66b6-47af-af7a-2f4cea2d8317"
+					(reference "LEDBULKCAP6")
 					(unit 1)
 				)
 			)
@@ -22865,7 +24239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 284.48 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22875,7 +24249,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6111468-4753-4736-a7f8-e8f0c659a2b5")
 		(property "Reference" "LED67"
-			(at 297.18 85.0198 0)
+			(at 297.18 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22883,14 +24257,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 297.18 87.5598 0)
+			(at 297.18 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 285.75 99.06 0)
 			(effects
 				(font
@@ -22901,7 +24275,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 287.02 100.965 0)
+			(at 285.75 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22911,12 +24285,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 284.48 91.44 0)
+			(at 302.768 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 297.18 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -23151,7 +24533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 285.75 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23161,7 +24543,7 @@
 		(fields_autoplaced yes)
 		(uuid "f902fe44-9d1b-4082-a6e4-3cd55a9a82c8")
 		(property "Reference" "LED25"
-			(at 298.45 35.4898 0)
+			(at 298.45 32.9498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23169,14 +24551,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 298.45 38.0298 0)
+			(at 298.45 35.4898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 287.02 49.53 0)
 			(effects
 				(font
@@ -23187,7 +24569,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 288.29 51.435 0)
+			(at 287.02 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23197,12 +24579,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 285.75 41.91 0)
+			(at 304.038 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 298.45 38.0298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -23297,7 +24687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 121.92 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23307,7 +24697,7 @@
 		(fields_autoplaced yes)
 		(uuid "fac70334-12f2-4e2c-9eef-8915307ff2c1")
 		(property "Reference" "LED60"
-			(at 134.62 85.0198 0)
+			(at 134.62 82.4798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23315,14 +24705,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 134.62 87.5598 0)
+			(at 134.62 85.0198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 123.19 99.06 0)
 			(effects
 				(font
@@ -23333,7 +24723,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 124.46 100.965 0)
+			(at 123.19 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23343,12 +24733,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 121.92 91.44 0)
+			(at 140.208 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 134.62 87.5598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -23373,7 +24771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI")
+		(lib_id "ScottoKeebs:LED_SK6812MINI")
 		(at 191.77 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23383,7 +24781,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb1c543f-3a29-43d0-b21c-50683f7cb645")
 		(property "Reference" "LED42"
-			(at 204.47 60.8898 0)
+			(at 204.47 58.3498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23391,14 +24789,14 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 204.47 63.4298 0)
+			(at 204.47 60.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
 			(at 193.04 74.93 0)
 			(effects
 				(font
@@ -23409,7 +24807,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
-			(at 194.31 76.835 0)
+			(at 193.04 78.486 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23419,12 +24817,20 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 191.77 67.31 0)
+			(at 210.058 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC" "C5149201"
+			(at 204.47 63.4298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
